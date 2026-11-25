@@ -1,0 +1,25 @@
+# Завдання курсу (приховано згідно з вимогою)
+task/
+
+# Змінні середовища та секрети
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# ChromaDB локальний кеш (генерується автоматично при запуску)
+chroma_db/
+
+# IDE та ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
